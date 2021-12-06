@@ -7,12 +7,18 @@
   align-items: center;
   justify-content: space-between;
 }
-.stat{
- 
-  justify-content: space-between;
-}
 
-.app_right{
+
+.app_left{
   display: flex;
-  
+  width: 75%;
+  float: left;
+
+}
+.app_right{
+  float: right;
+  width: 23%;
+  overflow: scroll;
+  height: 500px;
+
 }
